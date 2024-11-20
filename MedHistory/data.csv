@@ -1,0 +1,31 @@
+ID,Nombre,Apellido,Fecha_Nacimiento,Dirección,Teléfono,Alergias
+1,Juan,Pérez,1985-04-12,Calle Falsa 123,555-1234,
+2,Ana,Gómez,1990-07-23,Avenida Siempre Viva 456,555-5678,Polen
+3,Carlos,López,1978-11-30,Calle del Sol 789,555-8765,Lactosa
+4,Marta,Ramírez,1982-02-15,Calle Luna 321,555-4321,
+5,Sofía,Torres,1995-05-10,Avenida del Mar 654,555-3456,Nuts
+6,Pedro,Martínez,1980-09-05,Calle Verde 111,555-6789,
+7,Luz,Hernández,1992-12-01,Avenida del Río 222,555-9876,Dust
+8,Ricardo,García,1987-03-25,Calle Azul 333,555-6543,
+9,Claudia,Morales,1993-08-18,Avenida de la Paz 444,555-3210,Penicilina
+10,Felipe,Cruz,1989-06-30,Calle del Norte 555,555-2468,
+11,Violeta,Flores,1983-01-10,Avenida del Sol 666,555-1357,Lactosa
+12,Sergio,Rojas,1975-05-20,Calle del Este 777,555-8642,
+13,Natalia,Vásquez,1991-11-15,Avenida del Oeste 888,555-7531,Dust
+14,Javier,Rivera,1984-07-22,Calle del Centro 999,555-4680,
+15,Carmen,Ponce,1996-02-28,Calle del Mar 1011,555-1592,Nuts
+16,Hugo,Bermúdez,1981-04-14,Calle de la Luna 1213,555-2468,
+17,Liliana,Córdova,1988-09-11,Avenida de los Olmos 1415,555-7539,Polen
+18,Rafael,Maldonado,1979-06-05,Calle de los Pinos 1617,555-8520,
+19,Yolanda,Sandoval,1994-03-30,Avenida de los Jardines 1819,555-9634,Lactosa
+20,Miguel,Aguirre,1986-08-20,Calle de las Flores 2021,555-1478,
+21,Diana,Carrillo,1992-05-16,Avenida de la Libertad 2223,555-2589,Penicilina
+22,Omar,Soto,1977-12-12,Calle de la Esperanza 2425,555-3690,
+23,Evelyn,Pérez,1995-04-01,Avenida de las Estrellas 2627,555-4781,Dust
+24,Fabián,González,1983-03-29,Calle de la Amistad 2829,555-5792,
+25,Susana,Téllez,1990-07-15,Avenida de la Unión 3031,555-6803,Lactosa
+26,Ricardo,Vidal,1982-08-22,Calle de la Paz 3233,555-7914,
+27,Alicia,Hidalgo,1989-10-10,Avenida de los Sueños 3435,555-8025,Nuts
+28,Eduardo,Torres,1978-11-28,Calle del Sol Naciente 3637,555-9136,
+29,Mónica,Ramírez,1993-02-14,Avenida de los Ángeles 3839,555-0247,Polen
+30,Santiago,Carranza,1985-05-18,Calle de los Vientos 4041,555-1358,

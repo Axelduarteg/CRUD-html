@@ -1,0 +1,26 @@
+<!-- mi_aplicacion/templates/mi_aplicacion/detalle.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalle de Datos</title>
+</head>
+<body>
+    <h1>Detalle de Datos</h1>
+    {% if registro %}
+    <ul>
+        <li>ID: {{ registro.ID }}</li>
+        <li>Nombre: {{ registro.Nombre }}</li>
+        <li>Apellido: {{ registro.Apellido }}</li>
+        <li>Fecha de Nacimiento: {{ registro.Fecha_Nacimiento }}</li>
+        <li>Dirección: {{ registro.Dirección }}</li>
+        <li>Teléfono: {{ registro.Teléfono }}</li>
+        <li>Alergias: {{ registro.Alergias }}</li>
+    </ul>
+    <a href="{% url 'actualizar' registro.ID %}"><button>Actualizar Datos</button></a>
+    <a href="{% url 'eliminar' registro.ID %}"><button>Eliminar Datos</button></a>
+    {% else %}
+    <p>No se encontró el registro.</p>
+    {% endif %}
+    <a href="{% url 'buscar' %}"><button>Volver a la búsqueda</button></a>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!-- mi_aplicacion/templates/mi_aplicacion/formulario.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Datos</title>
+</head>
+<body>
+    <h1>Formulario de Datos</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="Nombre">Nombre:</label><br>
+        <input type="text" id="Nombre" name="Nombre"><br>
+        <label for="Apellido">Apellido:</label><br>
+        <input type="text" id="Apellido" name="Apellido"><br>
+        <label for="Fecha_Nacimiento">Fecha de Nacimiento:</label><br>
+        <input type="date" id="Fecha_Nacimiento" name="Fecha_Nacimiento"><br>
+        <label for="Dirección">Dirección:</label><br>
+        <input type="text" id="Dirección" name="Dirección"><br>
+        <label for="Teléfono">Teléfono:</label><br>
+        <input type="text" id="Teléfono" name="Teléfono"><br>
+        <label for="Alergias">Alergias:</label><br>
+        <input type="text" id="Alergias" name="Alergias"><br>
+        <input type="submit" value="Guardar">
+    </form>
+</body>
+</html>

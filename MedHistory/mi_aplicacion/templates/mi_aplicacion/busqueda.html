@@ -1,0 +1,24 @@
+<!-- mi_aplicacion/templates/mi_aplicacion/busqueda.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Búsqueda de Datos</title>
+</head>
+<body>
+    <h1>Búsqueda de Datos</h1>
+    <form method="get">
+        <label for="query">Buscar por ID, Nombre o Apellido:</label><br>
+        <input type="text" id="query" name="query"><br>
+        <input type="submit" value="Buscar">
+    </form>
+    <a href="{% url 'index' %}"><button>Volver</button></a>
+    <h2>Resultados de la Búsqueda</h2>
+    <ul>
+        {% for resultado in resultados %}
+            <li><a href="{% url 'detalle' resultado.ID %}">{{ resultado.Nombre }} {{ resultado.Apellido }} - {{ resultado.ID }}</a></li>
+        {% empty %}
+            <li>No se encontraron resultados.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

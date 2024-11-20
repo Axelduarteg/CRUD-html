@@ -1,0 +1,26 @@
+<!-- mi_aplicacion/templates/mi_aplicacion/eliminar.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eliminar Datos</title>
+</head>
+<body>
+    <h1>Eliminar Datos</h1>
+    {% if registro %}
+    <p>¿Está seguro de que desea eliminar el siguiente registro?</p>
+    <ul>
+        <li>ID: {{ registro.ID }}</li>
+        <li>Nombre: {{ registro.Nombre }}</li>
+        <li>Apellido: {{ registro.Apellido }}</li>
+    </ul>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Sí, eliminar</button>
+    </form>
+    <a href="{% url 'detalle' registro.ID %}">Cancelar</a>
+    {% else %}
+    <p>No se encontró el registro.</p>
+    <a href="{% url 'buscar' %}">Volver a la búsqueda</a>
+    {% endif %}
+</body>
+</html>
